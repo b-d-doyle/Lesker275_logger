@@ -34,9 +34,11 @@ Front switch, record: toggles whether the logger is recording pressures to micro
 ## Status LEDs:
 Green:
 - Ready to record pressures
+
 Amber:
 - Problem detected
 - Some problems inhibit recording, others do not
+
 Red:
 - Actively saving pressures to micro SD card
 
