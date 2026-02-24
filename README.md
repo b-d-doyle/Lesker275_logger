@@ -25,6 +25,7 @@ Components:
 - Various switches and basic components
 
 # Usage Instructions
+More details coming soon. 2/24/26
 
 ## Controls
 Back switch, power: turns on/off the logger without interrupting Lesker 275 power
