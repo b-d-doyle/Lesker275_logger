@@ -27,22 +27,22 @@ Components:
 # Serial Commands
 
 `help`\
-  Inputs: None\
-  Desc: Show help text
+&emsp;Inputs: None\
+&emsp;Desc: Show help text
 
 `read`\
-  Inputs: None\
-  Desc: Read Real Time Clock (RTC) and report to Serial\
-         date convention is day/month/year\
-         the command would be, "set 1 2 3 4 5 6 7"
+&emsp;Inputs: None\
+&emsp;Desc: Read Real Time Clock (RTC) and report to Serial\
+&emsp;&emsp;       date convention is day/month/year
 
 `set [sec] [min] [hr] [wkDay] [moDay] [mo] [yr]`\
-  Inputs: int int int int int int int\
-  Desc: Sets the RTC module.\
-        For example, to set the RTC to 3:02:01 AM on Wednesday, June 5th, 2007,
+&emsp;Inputs: int int int int int int int\
+&emsp;Desc: Sets the RTC module.\
+&emsp;&emsp;For example, to set the RTC to 3:02:01 AM on Wednesday, June 5th, 2007,\
+&emsp;&emsp;the command would be, "set 1 2 3 4 5 6 7"
 
 `verify`\
-  Inputs: None\
-  Desc: Read RTC and report whether it looks like it has been set:\
-         RTC looks unset if it is the year 2000\
-         RTC looks set if it is any other year
+&emsp;Inputs: None\
+&emsp;Desc: Read RTC and report whether it looks like it has been set:\
+&emsp;&emsp;RTC looks unset if it is the year 2000\
+&emsp;&emsp;RTC looks set if it is any other year
