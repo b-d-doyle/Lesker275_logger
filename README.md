@@ -25,7 +25,7 @@ Components:
 - Various switches and basic components
 
 # Serial Commands
-| Serial | Setting |
+| Serial Settings | Config |
 |---|---|
 | Baud | 9600 |
 | Data Bits | 8 |
