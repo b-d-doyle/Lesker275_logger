@@ -24,6 +24,23 @@ Components:
 - Resistive voltage divider. Should either be precision matched or tunable with a pot
 - Various switches and basic components
 
+# Usage Instructions
+
+## Controls
+Back switch, power: turns on/off the logger without interrupting Lesker 275 power
+
+Front switch, record: toggles whether the logger is recording pressures to micro SD
+
+## Status LEDs:
+<span style="color: green;">RED</span>: Ready
+- Ready to record pressures
+<span style="color: yellow;">RED</span>: Error
+- Problem detected
+- Some problems inhibit recording, others do not
+<span style="color: red;">RED</span>: Recording
+- Actively saving pressures to micro SD card
+
+
 # Serial Commands
 | Serial Settings | Config |
 |---|---|
