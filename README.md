@@ -25,6 +25,12 @@ Components:
 - Various switches and basic components
 
 # Serial Commands
+| Serial | Setting |
+|---|---|
+| Baud | 9600 |
+| Data Bits | 8 |
+| Parity | No |
+| Stop Bits | 1 |
 
 `help`\
 &emsp;Inputs: None\
