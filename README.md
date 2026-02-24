@@ -28,9 +28,11 @@ Components:
 More details coming soon. 2/24/26
 
 ## Controls
-Back switch, power: turns on/off the logger without interrupting Lesker 275 power
+**Back switch, power**: turns on/off the logger without interrupting Lesker 275 power
 
-Front switch, record: toggles whether the logger is recording pressures to micro SD
+**Front switch, record**: toggles whether the logger is recording pressures to micro SD
+
+**Front knob, tune**: Might not be present on every implementation! Physically tunes the read input value. Turn until the read pressure matches the pressure displayed on the vacuum gauge
 
 ## Status LEDs:
 Green:
